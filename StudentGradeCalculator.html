@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Grade Calculator</title>
+	</head>
+	<body>
+		<div class="head">
+			<h1>
+				Student <br />
+				Grade<br />
+				Calculator
+			</h1>
+		</div>
+		<div class="calc-body">
+			<div class="result">
+				<h1>Result</h1>
+				<div class="show-result">
+					<h2>Total : <span id="total"></span></h2>
+					<br />
+					<h2>Percentage : <span id="percentage"></span></h2>
+					<br />
+					<h2>Grade : <span id="grade"></span></h2>
+					<br />
+				</div>
+			</div>
+			<div class="input-body">
+				<div class="main">
+					<input type="text" name="" id="sub-1" placeholder="Subject-1" /><br />
+					<input type="text" name="" id="sub-2" placeholder="Subject-2" /><br />
+					<input type="text" name="" id="sub-3" placeholder="Subject-3" /><br />
+					<input type="text" name="" id="sub-4" placeholder="Subject-4" /><br />
+					<input type="text" name="" id="sub-5" placeholder="Subject-5" /><br />
+					<button onclick="getresult()">Show Result</button>
+				</div>
+			</div>
+		</div>
+		<script src="GradeCalcy.js"></script>
+	</body>
+</html>
